@@ -1,0 +1,120 @@
+:root {
+  --primary-text-color: #000000;
+  --primary-white-color: #ffffff;
+  --backgroung-grey: #f1f1f2;
+  --accent-color: #f7941e;
+}
+
+/* утиліти */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container-header {
+  width: 1400px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  font-family: "Homemade apple";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2.16;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  margin-left: 80px;
+  text-align: center;
+  display: block;
+}
+
+.header-list {
+  display: flex;
+  margin-left: 433px;
+}
+
+.nav-item .link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--primary-text-color);
+
+  display: block;
+  padding-top: 47px;
+  padding-bottom: 47px;
+}
+
+.header-list .nav-item:not(:last-child) {
+  margin-right: 31px;
+}
+
+.header-btn {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+  border-radius: 5px;
+  border: 1px solid #f7941e;
+  padding: 14px 17px 8px 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  margin-left: auto;
+  margin-right: 34px;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
