@@ -14,7 +14,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="container-header">
+    <header class="container-full">
             <nav class="header-nav">
                 <a href="index.html" class="header-logo">logo</a>
                 <ul class="header-list list">
@@ -23,80 +23,107 @@
                     <li class=nav-item><a href="" class="link">Services</a></li>
                     <li class=nav-item><a href="" class="link">Blogs</a></li>
                 </ul>
-                <button type="button" class="header-btn">Gift Finder</button>
+                <button type="button" class="header-btn ">Gift Finder</button>
             </nav>      
                 
     </header>
     <main>
-        <section>
-            <h1>Find a gift for your wife or girlfriend</h1>
-            
-            <p>Struggling to find a gift for your wife or girlfriend?
-                No problem!</p>
-            
-            <button type="button">Find gift now</button>
-            <img src="./img/Background.jpg" alt="hero" width="719">
+        <section class="hero container-full">
+            <div class="hero-rightside">
+                <h1 class="hero-title">Find a gift for your wife or girlfriend</h1>
+                <p class="hero-text">Struggling to find a gift for your wife or girlfriend?
+                    No problem!</p>
+                <button type="button" class="hero-btn btn">Find gift now</button>
+            </div>
+                <img src="./img/Background.jpg" alt="hero" width="719" class="hero-img">
             
         </section>
         
-        <section>
+        <section class="hero container-full">
             <img src="./img/card.jpg" alt="card" width="721">
-            <h2></h2>
-            <p></p>
-            <button type="button">Learn more</button>
+            <div class="hero-leftside">
+                <h2 class="hero-subtitle">How we work</h2>
+                <p class="hero-subtext">We’ve actually already asked hundreds of women what they want, and made a database with the
+                    results. All you have to do
+                    is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect
+                    gift
+                    options.</p>
+                <button type="button" class="hero-btn btn">Learn more</button>
+            </div>
+            
         </section>
 
-        <section>
-            <h2>Gifts for all Occasions</h2>
-            <p>“Try our web app to find the best gifts for all occasions”</p>
-            <ul>
-                <li>
-                    <img src="./img/Rectangle.jpg" alt="rectangle" width="270">
-                    <h3>Birthday</h3>
-                    <details>
-                        <summary>See More</summary>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam similique quia voluptatum fugiat et laudantium unde culpa! Pariatur, labore. Facere dignissimos explicabo officiis, neque dolorum tenetur vero cum quia cumque.
-                    </details>
+        <section class="container-full occasion">
+            <h2 class="occasion-title">Gifts for all Occasions</h2>
+            <p class="occasion-text">“Try our web app to find the best gifts for all occasions”</p>
+            <ul class="occasion-list list container ">
+                <li class="occasion-link">
+                    <img src="./img/happy.jpg" alt="rectangle" width="270">
+                    <div class="occasion-card">
+                        <h3 class="occasion-subtitle">Birthday</h3>
+                        <details class="occasion-details">
+                            <summary class="occasion-summary">See More</summary>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam similique quia voluptatum fugiat et laudantium
+                            unde culpa! Pariatur, labore. Facere dignissimos explicabo officiis, neque dolorum tenetur vero cum quia
+                            cumque.
+                        </details>
+                    </div>
                 </li>
-                <li>
-                    <img src="./img/shoes.jpg" alt="shoes" width="270">
-                    <h3>Anniversary</h3>
-                    <details>
-                        <summary>See More</summary>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima magni aliquid nostrum? Nostrum, officiis explicabo libero quibusdam nihil numquam, similique voluptate maxime suscipit dolores mollitia soluta, voluptatem aliquid reprehenderit corrupti?
-                    </details>
+                <li class="occasion-link">
+                    <img src="./img/shoes.jpg" alt="rectangle" width="270">
+                    <div class="occasion-card">
+                        <h3 class="occasion-subtitle">Anniversary</h3>
+                        <details class="occasion-details">
+                            <summary class="occasion-summary">See More</summary>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam similique quia voluptatum fugiat et laudantium
+                            unde culpa! Pariatur, labore. Facere dignissimos explicabo officiis, neque dolorum tenetur vero cum quia
+                            cumque.
+                        </details>
+                    </div>
                 </li>
-                <li>
-                    <img src="./img/kiss.jpg" alt="kiss" width="270">
-                    <h3>Valentine's Day</h3>
-                    <details>
-                        <summary>See More</summary>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque veniam numquam iusto ad vitae labore ratione vero vel aliquam impedit! Ipsa, dolore ipsam? Pariatur vero sequi maxime quas? Dolor, eum?
-                    </details>
+                <li class="occasion-link">
+                    <img src="./img/kiss.jpg" alt="rectangle" width="270">
+                    <div class="occasion-card">
+                        <h3 class="occasion-subtitle">Valentine's Day</h3>
+                        <details class="occasion-details">
+                            <summary >See More</summary>
+                            <span class="occasion-summary">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam similique quia voluptatum fugiat et laudantium
+                                unde culpa! Pariatur, labore. Facere dignissimos explicabo officiis, neque dolorum tenetur vero cum quia cumque.
+                            </span> 
+                        </details>
+                    </div>   
                 </li>
-                <li>
-                    <img src="./img/toy.jpg" alt="toy" width="270">
-                    <h3>Christmas</h3>
-                    <details>
-                        <summary>See More</summary>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi error ratione voluptas enim cumque aliquam velit ullam, corrupti quasi tempore vel nobis tempora qui impedit sequi molestias modi consequuntur iste.
-                    </details>
+                <li class="occasion-link">
+                    <img src="./img/tree.jpg" alt="rectangle" width="270">
+                    <div class="occasion-card">
+                        <h3 class="occasion-subtitle">Christmas</h3>
+                        <details class="occasion-details">
+                            <summary class="occasion-summary">See More</summary>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam similique quia voluptatum fugiat et laudantium
+                            unde culpa! Pariatur, labore. Facere dignissimos explicabo officiis, neque dolorum tenetur vero cum quia
+                            cumque.
+                        </details>
+                    </div>
                 </li>
             </ul>
         </section>
 
-        <section>
-            <h2>Ready to get started?</h2>
-            <p>Sign up or contact us</p>
-            <ul>
-                <li><button type="button">Find gift now</button></li>
-                <li><button type="button">how it works</button></li>
+        <section class="container-full started">
+            <div class="getstarted">
+                <h2 class="getstarted-title">Ready to get started?</h2>
+                <p class="getstarted-text">Sign up or contact us</p>
+            </div>
+            
+            <ul class="getstarted-list list">
+                <li class="getstarted-link"><button type="button" class="getstarted-btn" >Find gift now</button></li>
+                <li class="getstarted-link"><button type="button" class="getstarted-btn ">how it works</button></li>
             </ul>
         </section>
 
         <section>
-            <h2>Our Best Blogs Ever</h2>
-            <p>“Try our blog to find the best tips and tricks to select your gift”</p>
+            <h2 class="occasion-title">Our Best Blogs Ever</h2>
+            <p class="occasion-text">“Try our blog to find the best tips and tricks to select your gift”</p>
             <img src="./img/couple.jpg" alt="couple" width="400">
             <h3>Mr. John Doe</h3>
             <p>The best way to wish your wife</p>
