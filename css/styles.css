@@ -372,3 +372,152 @@ p {
 }
 
 /* BEST BLOGS */
+
+.best-blog-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+
+  color: var(--primary-white-color);
+
+  margin-bottom: 27px;
+}
+
+.best-blog-text {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.23;
+
+  color: var(--primary-white-color);
+
+  margin-bottom: 60px;
+}
+
+.best-blog-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.38;
+  text-decoration: none;
+
+  color: var(--primary-white-color);
+}
+
+.best-blog {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+
+  background-color: #231f20;
+}
+
+.best-blog-list {
+  width: calc(100% - 678px);
+  margin-left: 78px;
+
+  /* width: 100%;
+  padding: 70px 200px 49px 78px; вар.№2*/
+}
+
+.blog-card-list {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.blog-card-item {
+  width: calc((100% - 30px) / 2);
+  padding: 48px 48px 50px 48px;
+  margin-right: 30px;
+  background-color: var(--primary-white-color);
+}
+
+.blog-card-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.blog-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.41;
+
+  color: var(--primary-text-color);
+}
+
+.blog-card-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.38;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  color: var(--primary-text-color);
+}
+
+.blog-card-item:hover,
+.blog-card-item:focus {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+  background-color: var(--bacground-heade-footer);
+  padding-top: 106px;
+  padding-bottom: 35px;
+}
+
+/* .footer-nav {
+  width: calc(100% - 210px);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid #000000;
+
+  padding-bottom: 53px;
+} */
+
+/* .footer-link {
+   display: block;
+  padding-top: 10px;
+  padding-bottom: 10px; клікабельність посилання
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.43;
+  text-decoration: none;
+
+  color: var(--primary-text-color);
+} */
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid #000000;
+
+  padding-bottom: 53px;
+}
+
+.footer-nav .link {
+  display: flex;
+  width: calc((100% - 210px) / 5);
+  justify-content: center;
+}
+
+.footer-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.43;
+  text-decoration: none;
+
+  color: var(--primary-text-color);
+}
+
+.footer-logo {
+  font-family: "Homemade Apple";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2.16;
+
+  color: var(--accent-color);
+}
