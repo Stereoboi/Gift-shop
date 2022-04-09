@@ -114,6 +114,10 @@ p {
   padding-bottom: 47px;
 }
 
+.nav-item .link:hover{
+  color:var(--accent-color);
+}
+
 .header-list .nav-item:not(:last-child) {
   margin-right: 31px;
 }
@@ -239,8 +243,11 @@ p {
   text-align: center;
 
   color: var(--primary-text-color);
-
   margin-bottom: 22px;
+}
+
+.occasion-title.title{
+  margin-top: 88px;
 }
 
 .occasion-text {
@@ -513,6 +520,10 @@ footer {
   color: var(--primary-text-color);
 }
 
+.footer-link:hover{
+  color: var(--accent-color);
+}
+
 .footer-logo {
   font-family: "Homemade Apple";
   font-weight: 400;
@@ -520,4 +531,39 @@ footer {
   line-height: 2.16;
 
   color: var(--accent-color);
+}
+
+
+.social-list{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: 55px;
+  margin-bottom: 72px;
+}
+
+.social-list .link{
+  display: flex;
+  justify-content: center;
+    padding: 0;
+    margin: 0;
+  width: calc((100% - 874px) / 5);
+}
+
+.social-link{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 38.4px;
+      height: 38.4px;
+      border-radius: 50%
+}
+
+.focus:hover , .focus:focus{
+  fill: var(--accent-color);
+
+}
+
+.privacy{
+  text-align: center;
 }
